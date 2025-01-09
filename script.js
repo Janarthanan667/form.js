@@ -5,16 +5,14 @@ const password=document.querySelector('#password');
 const cpassword=document.querySelector('#cpassword');
 
 form.addEventListener('submit',(e)=>{
-    
-    if(validateInputs()){
-        alert('your sumbitted successfully')
+ if(validateInputs()){
+        e.preventDefault();
     }
     else{
         e.preventDefault();
-
     }
+    
 })
-
 function validateInputs(){
     const usernameval = username.value.trim();
     const emailval = email.value.trim();
