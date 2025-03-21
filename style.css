@@ -1,6 +1,6 @@
 body{
 background:  rgb(28, 182, 28);
-background: linear-gradient(90deg,rgb(119, 119, 223) 0%,rgb(189, 80, 135) 45%,rgb(62, 209, 62)85%);
+background-color:black;
 background-attachment: fixed;
 margin: 0;
 font-family: 'poppins','sans-serif';
